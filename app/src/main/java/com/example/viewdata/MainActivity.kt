@@ -16,5 +16,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(applicationContext,
                 ListviewActivity::class.java))
         }
+        binding.btnRecylerView.setOnClickListener{
+            startActivity(Intent(applicationContext,
+                RecylerActivity::class.java))
+        }
     }
 }
